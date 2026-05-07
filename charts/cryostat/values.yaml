@@ -473,7 +473,7 @@ oauth2Proxy:
     ## @param oauth2Proxy.image.pullPolicy Image pull policy for the OAuth2 Proxy container image
     pullPolicy: Always
     ## @param oauth2Proxy.image.tag Tag for the OAuth2 Proxy container image
-    tag: "latest"
+    tag: "v7.15.2"
   tls:
     selfSigned:
       ## @param oauth2Proxy.tls.selfSigned.enabled Whether a self-signed TLS certificate for oauth2-proxy HTTPS is generated and used
@@ -520,7 +520,7 @@ openshiftOauthProxy:
     ## @param openshiftOauthProxy.image.pullPolicy Image pull policy for the OpenShift OAuth Proxy container image
     pullPolicy: Always
     ## @param openshiftOauthProxy.image.tag Tag for the OpenShift OAuth Proxy container image
-    tag: "latest"
+    tag: "4.22"
   resources:
     requests:
       ## @param openshiftOauthProxy.resources.requests.cpu CPU resource request for the OpenShift OAuth Proxy container

@@ -1158,7 +1158,7 @@
                         "tag": {
                             "type": "string",
                             "description": "Tag for the OAuth2 Proxy container image",
-                            "default": "latest"
+                            "default": "v7.15.2"
                         }
                     }
                 },
@@ -1354,7 +1354,7 @@
                         "tag": {
                             "type": "string",
                             "description": "Tag for the OpenShift OAuth Proxy container image",
-                            "default": "latest"
+                            "default": "4.22"
                         }
                     }
                 },
